@@ -1,0 +1,90 @@
+  body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            max-width: 80%;
+            margin: 0 auto;
+        }
+
+        .my-name {
+            background-color: #ffffff;
+            color: #000000;
+            text-align: center;
+            padding: 20px 0;
+            padding-top: 50px;
+        }
+
+        .my-name h1 {
+            font-size: 2.5em;
+            margin: 10px 0;
+        }
+
+        .my-name p {
+            font-size: 1.2em;
+            margin: 0;
+        }
+
+        section {
+            padding: 10px 0;
+        }
+
+        section h2 {
+            font-size: 2em;
+            color: #333;
+            margin-bottom: 10px;
+            text-align: center;
+            
+        }
+
+        .container p {
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        img {
+            border-radius: 100%;
+            height: auto;
+            width:300px;
+            
+        }
+        .all-content{
+            background-color: #e3e3e3;
+        }
+
+        @media screen and (max-width: 768px) {
+            .my-name h1 {
+                font-size: 2em;
+            }
+        
+            .my-name p {
+                font-size: 1em;
+            }
+        
+            section h2 {
+                font-size: 1.8em;
+            }
+        
+            .topnav a {
+                font-size: 14px;
+            }
+        
+            img {
+                height: 70%;
+                width: 70%;
+            }
+        }
